@@ -1,0 +1,23 @@
+{
+  "name": "fb_ads_to_sheets",
+  "version": "1.0.0",
+  "description": "Export data from facebook ads and import to Google Sheets",
+  "main": "fb_ads_to_sheets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wilmerhmg/fb_ads_to_sheets.git"
+  },
+  "author": "Wilmer H Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilmerhmg/fb_ads_to_sheets/issues"
+  },
+  "homepage": "https://github.com/wilmerhmg/fb_ads_to_sheets#readme",
+  "dependencies": {
+    "facebook-ads-sdk": "^2.10.5",
+    "google-spreadsheet": "^3.3.0"
+  }
+}
